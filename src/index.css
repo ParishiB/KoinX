@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-grad {
+  background-image: linear-gradient(
+    165deg,
+    hsl(144deg 76% 69%) 0%,
+    hsl(158deg 64% 61%) 9%,
+    hsl(167deg 55% 54%) 18%,
+    hsl(174deg 46% 49%) 27%,
+    hsl(179deg 42% 47%) 36%,
+    hsl(181deg 43% 46%) 45%,
+    hsl(184deg 45% 46%) 55%,
+    hsl(186deg 46% 46%) 64%,
+    hsl(190deg 72% 39%) 73%,
+    hsl(194deg 100% 35%) 82%,
+    hsl(200deg 100% 35%) 91%,
+    hsl(209deg 80% 38%) 100%
+  );
+}
+
+.bg-grad2 {
+  background-image: linear-gradient(
+    120deg,
+    hsl(19deg 97% 69%) 0%,
+    hsl(17deg 96% 67%) 9%,
+    hsl(14deg 95% 66%) 18%,
+    hsl(11deg 93% 65%) 27%,
+    hsl(9deg 94% 63%) 36%,
+    hsl(8deg 97% 60%) 45%,
+    hsl(7deg 99% 57%) 55%,
+    hsl(4deg 100% 52%) 64%,
+    hsl(2deg 98% 53%) 73%,
+    hsl(2deg 96% 56%) 82%,
+    hsl(2deg 92% 57%) 91%,
+    hsl(2deg 88% 59%) 90%
+  );
+}
+
+.scrollhidden {
+  scrollbar-width: none; /* Remove scrollbar */
+}
+
+.scrollhidden::-webkit-scrollbar {
+  display: none; /* Remove scrollbar */
+}
